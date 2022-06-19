@@ -18,10 +18,12 @@ function App() {
   return (
     <div className="App">
       <Container >
-        <Card >
+        {/* <Card >
+          </Card> */}
           <ToDos todos={todo_data} />
-        </Card>
-
+        {/* <Card >
+          <ToDos todos={todo_data} />
+        </Card> */}
       </Container>
       {/* <ToDos todos={[todo_data]} /> */}
       {/* <h1>kdjfk</h1> */}
